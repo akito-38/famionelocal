@@ -10,6 +10,14 @@ function import_header_scripts() {
        wp_enqueue_style( 'query', get_template_directory_uri() . '/assets/css/query.css');
        wp_enqueue_style( 'nav', get_template_directory_uri() . '/assets/css/nav.css');
        wp_enqueue_style( 'footer', 'https://famione.com/css/footer.css');
+
+      if(is_home()){
+        wp_enqueue_style( 'commontop', get_template_directory_uri() . '/assets/css/top/common.css');
+        wp_enqueue_style( 'government', get_template_directory_uri() . '/assets/css/top/government.css');
+        wp_enqueue_style( 'styletop', get_template_directory_uri() . '/assets/css/top/style.css');
+      }
+
+
     //    wp_enqueue_style( 'flickity', 'https://unpkg.com/flickity@2/dist/flickity.min.css');
        wp_enqueue_script( 'jquery' );
   }
