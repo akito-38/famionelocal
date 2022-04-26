@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*---------------------------------
 
 共通
@@ -41,10 +42,12 @@
     margin: auto;
     padding: 0 0;
   }
+
   .container {
     padding-top: 32px;
     padding-bottom: 32px;
   }
+
   /*背景色がある場合*/
   .background_container {
     padding-top: 32px;
@@ -58,7 +61,7 @@ p {
   line-height: 1.75;
   color: #454545;
   -webkit-font-feature-settings: "palt";
-          font-feature-settings: "palt";
+  font-feature-settings: "palt";
   letter-spacing: 1px;
 }
 
@@ -68,7 +71,7 @@ p {
     line-height: 1.5;
     color: #454545;
     -webkit-font-feature-settings: "palt";
-            font-feature-settings: "palt";
+    font-feature-settings: "palt";
     letter-spacing: 1px;
   }
 }
@@ -335,11 +338,11 @@ i {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .success-item-btn:hover,
@@ -348,7 +351,7 @@ i {
 .btn:active {
   opacity: 0.9;
   -webkit-filter: brightness(110%);
-          filter: brightness(110%);
+  filter: brightness(110%);
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -370,13 +373,15 @@ i {
 .btn-data a {
   color: #67c0a7;
 }
-.fv .btn-box{
+
+.fv .btn-box {
   max-width: 476px;
-  }
+}
 
 .btn-box {
-    display: grid;
-    gap: 32px;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr 1fr;
 }
+
 /*# sourceMappingURL=common.css.map */
