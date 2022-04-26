@@ -1,0 +1,530 @@
+@media screen and(min-width: 800px) {
+    // ------------------------------------
+    // FV
+    // ------------------------------------
+    .fv-sp,
+    .efficacy-img {
+        display: none;
+    }
+    .fv-pc {
+        display: block;
+    }
+}
+@media screen and(max-width: 1000px) {
+}
+@media screen and(max-width: 480px) {
+    .fv-tb {
+        display: inline;
+    }
+    .suport-box {
+        width: 95%;
+        height: auto;
+        min-width: 300px;
+        padding: 16px;
+        img {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+    .seminar-text-box {
+        flex-direction: column;
+        img {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 16px;
+        }
+    }
+    .seminar-box {
+        width: 100%;
+        height: auto;
+        max-height: 420px;
+        padding: 16px;
+        min-width: 300px;
+    }
+    .seminar-sub-box {
+        min-width: 300px;
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 40px;
+        img {
+            width: 60px;
+        }
+        height: 80px;
+    }
+    .section-text-box {
+        img{
+            max-width: 400px;
+            width: 100%;
+        }
+    }
+    .section-text-inner-box{
+        width: 100%;
+    }
+    .efficacy-box {
+        min-width: 300px;
+        width: 100%;
+        height: 360px;
+        img {
+            width: 95%;
+        }
+    }
+    .efficacy-img {
+        width: 50%;
+        max-width: 160px;
+        margin: 0 auto;
+        display: inline;
+    }
+    .for-box {
+        min-width: 300px;
+        width: 100%;
+        padding: 16px;
+        height: auto;
+    }
+    .for-box-inner {
+        display: flex;
+        justify-content: flex-start;
+        img {
+            width: 90px;
+            height: 90px;
+            margin: 0 auto;
+        }
+    }
+    .event-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .event-box {
+        width: 95%;
+        min-width: 300px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+}
+@media screen and(max-width: 799px) {
+    // fv
+    .fv-pc {
+        display: none;
+    }
+    .fv-sp {
+        display: inline;
+    }
+    .fv {
+        flex-direction: column-reverse;
+        img {
+            width: 100%;
+            margin: 0;
+        }
+    }
+    .fv-inner {
+        width: 100%;
+        padding: 0;
+    }
+    .fv-text-inner {
+        flex-direction: column;
+        width: 90%;
+        margin: 24px auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .fv-main {
+        font-size: 2.8rem;
+        line-height: 42px;
+    }
+    .fv-accent {
+        font-size: 2.8rem;
+    }
+    .btn-box {
+        justify-content: center;
+    }
+    .btn {
+        width: 160px;
+        height: 40px;
+        font-size: 1.3rem;
+    }
+    
+    // 下層ページFV
+    .fv-list {
+        height: 150px;
+        img {
+            width: 100%;
+            margin: 0;
+        }
+    }
+    .fv-inner-list {
+        width: 94%;
+        h2 {
+            font-size: 2.8rem;
+            line-height: 42px;
+            text-align: center;
+        }
+        p {
+            display: none;
+        }
+    }
+    
+    // 共通
+    .section-wrapper {
+        padding: 60px 0;
+    }
+    .section-title {
+        font-size: 2.4rem;
+        text-align: center;
+        display: inline;
+        letter-spacing: 1.5px;
+    }
+    .section-title-accent {
+        font-size: 2.4rem;
+    }
+    .section-text {
+        margin: 16px 0;
+        font-size: 1.4rem;
+    }
+    .section-text-accent {
+        font-size: 1.4rem;
+    }
+    
+    // bar
+    .custmer-bar {
+    height: 140px;
+    }
+    .custmer-bar-title {
+        width: 95%;
+        margin: 0 auto;
+        padding: 24px auto 16px;
+        font-size: 1rem;
+    }
+    .btn-form-container {
+        justify-content: flex-end;
+        padding: 8px 0;
+        img {
+            width: 100px;
+            height: auto;
+            margin-top: 8px;
+        }
+        flex-direction: column;
+    }
+    .content{
+        width: 120px;
+        height: 40px;
+        margin-left: 12px;
+    }
+    // suport
+    .suport-box{
+        padding: 8px;
+        width: 36%;
+        height: 760px;
+    }
+    .suport-title-number {
+        font-size: 3.2rem;
+    }
+    .suport-title {
+        font-size: 1.6rem;
+    }
+    .suport-title-accent {
+        font-size: 1.6rem;
+    }
+    .suport-text,
+    .suport-text-accent {
+        font-size: 1.4rem;
+    }
+    .section-sub-title,
+    .section-sub-title-accent {
+        font-size: 2rem;
+    }
+    .section-sub-text,
+    .section-sub-text-accent {
+        font-size: 1.4rem;
+    }
+    .section-sub-text {
+        width: 100%;
+    }
+    .section-title-box{
+        img{
+            max-width: 200px;
+        }
+    }
+    .section-text-box {
+        img{
+            width: 48%;
+            max-width: 400px;
+        }
+    }
+    .section-text-inner-box {
+        width: 48%;
+    }
+
+    // seminar
+    .seminar-text-box {
+        img {
+            width: 40%;
+            max-width: 400px;
+        }
+    }
+    .seminar-text-title {
+        font-size: 2rem;
+    }
+    .seminar-text-main,
+    .seminar-text-main-accent {
+        font-size: 1.4rem;
+        margin-right: 0;
+    }
+    .seminar-img-box {
+        margin-top: 16px;
+    }
+    .seminar-box-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        i {
+            width: 40px;
+            height: 40px;
+            margin: 0;
+        }
+    }
+    .seminar-box{
+        padding: 8px;
+        width: 32%;
+        height: 480px;
+    }
+    .seminar-title {
+        margin-left: 12px;
+        text-align: left;
+        font-size: 1.6rem;
+        width: 80%;
+    }
+    .seminar-text,
+    .seminar-text-accent {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .seminar-sub-container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .seminar-sub-box{
+        width: 36%;
+        margin: 8px;
+    }
+    .seminar-sub-box-text,
+    .sub-text-accent {
+        font-size: 1.2rem;
+    }
+    .seminar-sub-box-text {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    // merit
+    .merit-container {
+        width: 90%;
+        padding: 40px 16px 0;
+    }
+    .merit-box {
+        width: 85%;
+        img {
+            width: 60px;
+        }
+    }
+    .merit-title-box {
+        width: 70%;
+        height: 40px;
+        margin: 0 auto -20px;
+    }
+    .merit-title {
+        font-size: 1.6rem;
+    }
+    .merit-box-text {
+        font-size: 1.4rem;
+    }
+    .merit-box-text-name {
+        display: none;
+    }
+    .merit-custmer-container {
+        flex-wrap: wrap;
+    }
+    .merit-custmer-box {
+        width: 100%;
+        margin-top: 16px;
+        img {
+            max-width: 420px;
+            width: 90%;
+            margin: 8px 16px 16px;
+        }
+    }
+    .merit-custmer-text {
+        font-size: 1rem;
+    }
+
+    // efficacy
+    .efficacy-box{
+        width: 35%;
+        height: 360px;
+    }
+    .efficacy-container {
+        width: 100%;
+    }
+    .efficacy-title {
+        font-size: 1.6rem;
+    }
+    .efficacy-text {
+        font-size: 1.4rem;
+    }
+
+    // success
+    .gallery-cell {
+        height: 200px;
+        width: 40%;
+        min-width: 250px;
+    }
+    .success-item {
+        padding: 8px;
+    }
+    .success-item-text {
+        display: none;
+    }
+    .success-item-box-inner {
+        flex-direction: column;
+        img {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+    .success-item-box-text {
+        margin: 0;
+        width: 80%;
+    }
+    .success-item-title {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    .success-item-sub-title {
+        font-size: 1.6rem;
+    }
+    .success-item-btn {
+        width: 90%;
+        max-width: 360px;
+        font-size: 1.4rem;
+        margin: 0 auto;
+    }
+    .success-list-btn {
+        width: 90%;
+        max-width: 300px;
+        font-size: 1.4rem;
+    }
+
+    // for
+    .for-box{
+        padding: 16px;
+    }
+    .for-title {
+        font-size: 1.6rem;
+    }
+    .for-box-inner-name {
+        font-size: 1.2rem;
+    }
+    .for-box-inner-name-bold {
+        font-size: 1.4rem;
+    }
+    .for-box-inner-text {
+        margin-top: 16px;
+        font-size: 1.2rem;
+    }
+
+    // event
+    .event-box{
+        width: 40%;
+        margin-bottom: 16px;
+    }
+    .contact-btn{
+        margin-top: 16px;
+    }
+
+    // media
+    .media-box {
+        width: 100%;
+        justify-content: center;
+    }
+    .media-icon-box {
+        height: 75px;
+        width: 30%;
+        img {
+            width: 70%;
+        }
+    }
+    .media-title {
+        font-size: 1.6rem;
+    }
+    .media-text {
+        font-size: 1.2rem;
+    }
+    
+    #news {
+        padding: 0;
+    }
+    .news-icon-box{
+        height: 75px;
+        width: 30%;
+        max-width: 100px;
+        img{
+            width: 100%;
+        }
+    }
+
+    // ---------------------------------------------------------------------
+    // インタビュー
+    // ---------------------------------------------------------------------
+    .main-box,
+    .company-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .main-container-inner {
+        width: 100%;
+    }
+    .company-container {
+        margin: 24px auto;
+    }
+    .topics-box {
+        p,
+        h3 {
+            font-size: 1.4rem;
+        }
+    }
+    .btn-column-item{
+        width: 90%;
+        font-size: 1.4rem;
+    }
+    .main-box {
+        h1 {
+            font-size: 2.4rem;
+        }
+        // .main-sub-title
+        h2 {
+            font-size: 2rem;
+        }
+        h3,p {
+            font-size: 1.4rem;
+        }
+    }
+
+    // ---------------------------------------------------------------------
+    // インタビューリスト
+    // ---------------------------------------------------------------------
+    .gallery {
+        justify-content: center;
+        width: 100%;
+    }
+    .sccess-item-list {
+        width: 100%;
+        height: 360px;
+        padding: 16px;
+    }
+    .success-item-box-inner-list {
+        img {
+            width: 90%;
+        }
+    }
+}

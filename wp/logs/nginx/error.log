@@ -1,0 +1,1 @@
+2022/04/26 19:00:23 [error] 24748#8928: *3920 directory index of "D:/project/famionelocal/wp/app/public/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", host: "famionelocal.local"
