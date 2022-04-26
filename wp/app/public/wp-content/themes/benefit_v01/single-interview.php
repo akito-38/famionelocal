@@ -3,7 +3,7 @@
 <div class="fv-list">
     <div class="fv-inner-list">
         <h2>導入・提供事例</h2>
-            <p class="fv-pc"><?php the_field('company'); ?></p>
+        <p class="fv-pc"><?php the_field('company'); ?></p>
     </div>
 </div>
 
@@ -45,15 +45,17 @@
             </div>
             <div class="topics-box">
                 <h3>TOPICS</h3>
-                <p >
+                <p>
                     <?php print nl2br(get_post_meta($post->ID, 'topic',true)); ?></p>
             </div>
         </div>
         <div class="topics-sub-box">
             <h2>ファミワンの妊活・不妊治療<br>福利厚生サポート</h2>
             <div class="btn-box btn-column">
-                <div class="btn btn-contact btn-column-item"><a href="https://famione.co.jp/benefit-contact/">お問い合わせ</a></div>
-                <div class="btn btn-data btn-column-item"><a href="https://famione.co.jp/benefit-download/">資料請求</a></div>
+                <div class="btn btn-contact btn-column-item"><a href="https://famione.co.jp/benefit-contact/">お問い合わせ</a>
+                </div>
+                <div class="btn btn-data btn-column-item"><a href="https://famione.co.jp/benefit-download/">資料請求</a>
+                </div>
             </div>
         </div>
     </div>

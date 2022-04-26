@@ -16,14 +16,14 @@
             <li class="sccess-item-list">
                 <div class="success-item-box">
 
-                        <div class="success-item-box-inner-list">
-                            <div class="success-img-box">
-                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium_large'); ?>" alt="">
-                            </div>
-                            <div class="success-item-box-text-list">
+                    <div class="success-item-box-inner-list">
+                        <div class="success-img-box">
+                            <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium_large'); ?>" alt="">
+                        </div>
+                        <div class="success-item-box-text-list">
 
                             <div class="success-item-tagUnit">
-                              <?php
+                                <?php
                                 $terms = get_the_terms(get_the_ID(),'intro_type');
                                 if(!empty($terms)){
                                 foreach( $terms as $term ) {
@@ -32,10 +32,10 @@
                                 }
                               ?>
                             </div>
-                                <p class="success-item-title"><?php the_field('company'); ?></p>
-                                <p class="success-item-sub-title success-item-sub-title-list"><?php the_title(); ?></p>
-                            </div>
+                            <p class="success-item-title"><?php the_field('company'); ?></p>
+                            <p class="success-item-sub-title success-item-sub-title-list"><?php the_title(); ?></p>
                         </div>
+                    </div>
 
                 </div>
             </li>

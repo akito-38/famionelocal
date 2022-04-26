@@ -34,13 +34,19 @@
                     alt=""></li>
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_mercari.jpg"
                     alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg"
+                    alt=""></li>
 
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg"
+                    alt=""></li>
         </ul>
         <ul class="slideshow">
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_odakyu.jpg"
@@ -51,13 +57,19 @@
                     alt=""></li>
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_mercari.jpg"
                     alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg"
+                    alt=""></li>
 
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg"
+                    alt=""></li>
         </ul>
         <ul class="slideshow">
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_odakyu.jpg"
@@ -68,13 +80,19 @@
                     alt=""></li>
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_mercari.jpg"
                     alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg"
+                    alt=""></li>
 
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg"
+                    alt=""></li>
         </ul>
     </div>
 </div>
@@ -623,7 +641,7 @@ if ( $query->have_posts() ) : ?>
     <p class="custmer-bar-title">様々な企業様にてファミワンの妊活・不妊治療サポートを<br class="br-sp">福利厚生としての導入等で活用いただいています</p>
     <div class="scloll-box">
         <ul class="slideshow">
-        <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_odakyu.jpg"
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_odakyu.jpg"
                     alt=""></li>
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_metro.jpg"
                     alt=""></li>
@@ -631,16 +649,22 @@ if ( $query->have_posts() ) : ?>
                     alt=""></li>
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_mercari.jpg"
                     alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg"
+                    alt=""></li>
 
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg"
+                    alt=""></li>
         </ul>
         <ul class="slideshow">
-        <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_odakyu.jpg"
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_odakyu.jpg"
                     alt=""></li>
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_metro.jpg"
                     alt=""></li>
@@ -648,16 +672,22 @@ if ( $query->have_posts() ) : ?>
                     alt=""></li>
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_mercari.jpg"
                     alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg"
+                    alt=""></li>
 
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg"
+                    alt=""></li>
         </ul>
         <ul class="slideshow">
-        <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_odakyu.jpg"
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_odakyu.jpg"
                     alt=""></li>
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_metro.jpg"
                     alt=""></li>
@@ -665,13 +695,19 @@ if ( $query->have_posts() ) : ?>
                     alt=""></li>
             <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_mercari.jpg"
                     alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_casley.jpg"
+                    alt=""></li>
 
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg" alt=""></li>
-            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg" alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_interg.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_tbs.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_daio.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_ga-tech.jpg"
+                    alt=""></li>
+            <li class="content"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_kokuyo.jpg"
+                    alt=""></li>
         </ul>
     </div>
 </div>
