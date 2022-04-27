@@ -130,12 +130,14 @@ body {
 
 .inner_body {
   width: 1108px;
+  max-width: 100%;
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 0 24px;
 }
 
 .inner_narrow {
-  width: 918px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -150,7 +152,9 @@ body {
   padding-bottom: 60px;
   background-color: #F9F9F7;
 }
-
+.background_containerPink{
+  background-color: #F6EDE5;
+}
 @media screen and (max-width: 1024px) {
   .inner_body {
     width: 88%;
@@ -175,7 +179,7 @@ body {
 
 /*P*/
 p {
-  font-size: 0.875rem;
+  font-size: 1.4rem;
   line-height: 1.75;
   color: #454545;
   font-feature-settings: "palt";
@@ -184,7 +188,7 @@ p {
 
 @media screen and (max-width: 768px) {
   p {
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     color: #454545;
     font-feature-settings: "palt";
@@ -476,17 +480,21 @@ a {
   display: block;
   padding: 9px;
   text-align: center;
-  border-radius: 4px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
   font-size: 13px;
   font-weight: bold;
   margin-left: 15px;
 }
 
 .bl_mainHeader_list .bl_mainHeader_btn--contact {
-  background-color: #67C0A7;
+  background: linear-gradient(90deg, #EF8A6A -0.01%, #FCB677 100%);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 24px;
+  width: 140px;
   color: #fff;
-  width: 124px;
-  border: 1px solid #67C0A7;
+  border:none;
+
 }
 
 #header .bl_mainHeader_list .bl_mainHeader_btn--contact:hover {
@@ -498,8 +506,9 @@ a {
   .bl_mainHeader_list .bl_mainHeader_btn--contact {
     width: auto;
     border: none;
+    box-shadow: none;
     color: inherit;
-    background-color: transparent;
+    background: none;
   }
 
   #header .bl_mainHeader_list .bl_mainHeader_btn--contact:hover {
@@ -510,8 +519,8 @@ a {
 
 .bl_mainHeader_list .bl_mainHeader_btn--document {
   background-color: #fff;
-  color: #67C0A7;
-  width: 98px;
+  color: #F28B34;
+  width: 140px;
   border: 1px solid #ccc;
 }
 
@@ -535,6 +544,7 @@ a {
     font-weight: normal;
     text-align: left;
     font-size: 12px;
+    box-shadow: none;
   }
 }
 

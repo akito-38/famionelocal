@@ -215,11 +215,11 @@
 ---------------------------------*/
 
 .headline_text {
-	font-size: 1.75rem;
+	font-size: 3.2rem;
 	font-weight: bold;
 	position: relative;
 	display: block;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	color: #454545;
 	letter-spacing: 1px;
 	text-align: center;
@@ -227,37 +227,38 @@
 
 .headline_text h2 {
 	font-weight: bold;
+	text-align: center;
 	font-family: Tsukushi A Round Gothic;
 
 }
 
 /*以下で線を表示*/
-.headline_text:before {
+/* .headline_text:before {
 	content: '';
 	position: absolute;
 	left: 50%;
 	bottom: -15px;
-	/*線の上下位置*/
+
 	display: inline-block;
 	width: 50px;
-	/*線の長さ*/
+
 	height: 3px;
-	/*線の太さ*/
+
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
-	/*位置調整*/
+
 	background-color: #eee;
-	/*線の色*/
+
 	border-radius: 8px;
-}
+} */
 
 @media screen and (max-width: 768px) {
 	.headline_text {
-		font-size: 1.25rem;
+		font-size: 2.4rem;
 		font-weight: bold;
 		position: relative;
 		display: block;
-		margin-bottom: 40px;
+		margin-bottom: 20px;
 		color: #454545;
 		letter-spacing: 1px;
 		text-align: center;
@@ -272,20 +273,35 @@
 .button {
 	display: inline-block;
 	/*width: 240px;*/
-	height: 60px;
+	height: 64px;
 	text-align: center;
 	text-decoration: none;
 	outline: none;
 	border-radius: 30px;
 	font-size: 16px;
 	font-weight: bold;
-	background: #F28B34;
-	border-radius: 8px;
+	background: linear-gradient(90deg, #EF8A6A -0.01%, #FCB677 100%);
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+	border-radius: 32px;
 	color: #fff;
-	line-height: 60px;
+	line-height: 64px;
 	letter-spacing: 1.2px;
 	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
 	transition: .3s ease-in-out;
+}
+
+.button_fix {
+	width: 238px;
+	font-size: 2rem;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	z-index: 1;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.button_fix img {
+	width: 20px;
 }
 
 .button:hover {
@@ -318,15 +334,29 @@
 	.button {
 		display: inline-block;
 		/*	width: 280px;*/
-		height: 48px;
-		line-height: 48px;
+		height: 40px;
+		line-height: 40px;
 		text-align: center;
 		text-decoration: none;
-		font-size: 16px;
+		font-size: 13px;
 		font-weight: bold;
-		border-radius: 6px;
+		border-radius: 24px;
 		color: #fff;
 		padding: 0;
+	}
+
+	.button_fix {
+		width: calc(100% - 50px);
+		height: 56px;
+		border-radius: 32px;
+		font-size: 16px;
+		line-height: 56px;
+		bottom: 10px;
+		right: 25px;
+	}
+
+	.button_fix img {
+		width: 16px;
 	}
 }
 
@@ -339,15 +369,15 @@
 .subbutton {
 	display: inline-block;
 	/*	width: 240px;*/
-	height: 60px;
+	height: 64px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: bold;
 	background: #fff;
-	border-radius: 8px;
+	border-radius: 32px;
 	color: #F28B34;
-	line-height: 60px;
+	line-height: 64px;
 	letter-spacing: 1.2px;
 	transition: .3s ease-in-out;
 	border: 1px solid #D4CECA;
@@ -374,13 +404,13 @@
 	.subbutton {
 		display: inline-block;
 		/*	width: 280px;*/
-		height: 48px;
-		line-height: 48px;
+		height: 40px;
+		line-height: 40px;
 		text-align: center;
 		text-decoration: none;
-		font-size: 16px;
+		font-size: 13px;
 		font-weight: bold;
-		border-radius: 6px;
+		border-radius: 24px;
 		padding: 0;
 	}
 }

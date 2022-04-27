@@ -324,8 +324,9 @@ i {
 
 .btn {
   width: 220px;
-  height: 64px;
+  height: 56px;
   border-radius: 6px;
+  font-weight: bold;
   text-align: center;
   color: #fff;
 }

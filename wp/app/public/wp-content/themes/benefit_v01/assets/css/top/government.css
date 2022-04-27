@@ -15,7 +15,7 @@
 }
 
 .main-visual-img {
-    background: url(https://famione.com/local/images/main_pc.jpg);
+    background: url(../../img/top/main_pc.jpg);
     height: 100%;
     width: 100%;
     background-size: contain;
@@ -34,12 +34,12 @@
     font-size: 14px;
     text-align: center;
     letter-spacing: 1.2px;
-    color: #F28B34;
-    background: #FFFFFF;
-    border: 1px solid #F28B34;
+    color: #B39885;
+    background: #F9F9F7;
+    /* border: 1px solid #F28B34; */
     box-sizing: border-box;
     border-radius: 999px;
-    padding: 8px 16px;
+    padding: 6px 24px;
 }
 
 .main-visual-text_title {
@@ -52,12 +52,16 @@
     color: #454545;
 }
 
+.main-visual-text_title span {
+    font-size: inherit;
+}
+
 .main-visual-text_btn_box {
     display: grid;
     gap: 16px;
     grid-template-columns: 1fr 1fr;
     margin-top: 16px;
-    width: 88%;
+    width: 82%;
 }
 
 .main-visual-text p {
@@ -67,7 +71,7 @@
 
 @media screen and (max-width: 767px) {
     .main-visual-img {
-        background: url(https://famione.com/local/images/main_sp.jpg);
+        background: url(../../img/top/main_pc.jpg);
         height: 100%;
         width: 100%;
         background-size: contain;
@@ -93,7 +97,7 @@
     }
 
     .main-visual-text p {
-        line-height: 2;
+        line-height: 1.6;
         margin-top: 8px;
     }
 
@@ -106,13 +110,19 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .main-visual {
+        height: 570px;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .main-visual {
         height: 640px;
     }
 
     .main-visual-text {
-        top: 264px;
+        top: 280px;
     }
 }
 
@@ -302,7 +312,18 @@ H2の下カラー
 }
 
 .info_img img {
-    width: 728px;
+    width: 654px;
+    max-width: 100%;
+}
+
+.banner_img {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.banner_img img {
+    max-width: 100%;
+    width: 800px;
 }
 
 @media screen and (max-width: 768px) {
@@ -318,6 +339,7 @@ H2の下カラー
     .introduction_text p {
         line-height: 200%;
         text-align: left;
+        font-size: 1.4rem;
     }
 }
 
@@ -343,6 +365,11 @@ H2の下カラー
     box-sizing: border-box;
     border-radius: 8px;
     padding: 32px 32px 0;
+    font-weight: bold;
+}
+
+.famione_service_box span {
+    font-size: inherit;
 }
 
 .famione_service_box img {
@@ -619,7 +646,7 @@ famione-support_grid
 .famione-support_grid {
     display: grid;
     gap: 0;
-    grid-template-columns: 4fr 1fr 4fr;
+    grid-template-columns: 4fr 1.87fr 4fr;
     margin-bottom: 24px;
     align-items: center;
     justify-content: center;
@@ -643,8 +670,15 @@ famione-support_grid
 }
 
 .famione-support_box_plus img {
-    width: 80px;
+    width: 102px;
     margin: 24px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .famione-support_box_plus img {
+        width: 60px;
+        /* margin: 24px 0; */
+    }
 }
 
 .famione-support_box h4 {
@@ -680,12 +714,16 @@ famione-support_grid
 
     .famione-support_box p {
         margin-top: 8px;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 175%;
     }
 
     .famione-support_box {
         padding: 16px;
+    }
+
+    .famione-support_box h4 {
+        font-size: 16px;
     }
 }
 
@@ -719,32 +757,88 @@ famione-support_grid
 }
 
 /*セミナー概要*/
-.seminar_about {
-    margin-bottom: 40px;
+.seminar_about_pc {
     margin-top: 24px;
+    font-size: 1.4rem;
+    display: block;
 }
 
-.seminar_about table {
+.seminar_about_pc [rowspan] {
+    width: 120px;
+    box-sizing: border-box;
+}
+
+.seminar_about_pc th {
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .seminar_about_pc {
+        display: none;
+    }
+}
+
+.seminar_about_pc table {
     width: 100%;
 }
 
-.seminar_about td {
+.seminar_about_pc td {
     border: 1px solid #D4CECA;
     padding: 12px;
     color: #454545;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
-.seminar_about th {
+.seminar_about_pc th {
     border: 1px solid #D4CECA;
     padding: 12px;
     background: #EDECEB;
     color: #454545;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.4rem;
+    white-space: nowrap;
 }
 
-.seminar_about tfoot {
+.seminar_about_pc tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.seminar_about_sp {
+    margin-top: 24px;
+    font-size: 1.2rem;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .seminar_about_sp {
+        display: block;
+    }
+}
+
+.seminar_about_sp table {
+    width: 100%;
+}
+
+.seminar_about_sp td {
+    border: 1px solid #D4CECA;
+    padding: 12px;
+    color: #454545;
+    font-size: 1.2rem;
+}
+
+.seminar_about_sp th {
+    border: 1px solid #D4CECA;
+    padding: 12px;
+    background: #EDECEB;
+    color: #454545;
+    font-weight: bold;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    padding-right: 30px;
+}
+
+.seminar_about_sp tfoot {
     background-color: #333;
     color: #fff;
 }
