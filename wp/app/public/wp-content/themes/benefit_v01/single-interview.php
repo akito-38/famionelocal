@@ -52,13 +52,13 @@
         <div class="topics-sub-box">
             <h2 class="topics-sub-box-txt">ファミワンが住民の皆さまの<span class="orange">妊活・不妊治療の相談</span>をフルサポートします</h2>
             <div class="btn-box btn-column">
-                <div class="success-list-btn btn"><a href="https://famione.co.jp/benefit-contact/">
+                <div class="success-list-btn btn"><a href="https://form.run/@famione-jichitai">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/email.svg" alt=""
                             width="20" loading="lazy">
                         お問い合わせ
                     </a>
                 </div>
-                <div class="border-list-btn btn"><a href="https://famione.co.jp/benefit-download/">
+                <div class="border-list-btn btn"><a href="https://famione.co.jp/local-contact">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/download.svg" alt=""
                             width="20" loading="lazy">
                         資料請求</a>
@@ -69,7 +69,7 @@
     <!-- ボタンを横並びにするために親要素を追加 -->
     <div class="main-btn-box">
         <div class="border-list-btn btn">
-            <a href="<?php echo home_url(); ?>">TOPに戻る</a>
+            <a href="/">TOPに戻る</a>
         </div>
         <div class="border-list-btn btn">
             <a href="<?php echo home_url(); ?>/interview/">導入事例一覧</a>

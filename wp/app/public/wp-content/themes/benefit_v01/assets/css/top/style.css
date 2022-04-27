@@ -251,8 +251,7 @@ a {
 
 ---------------------------------*/
 .footer_bg {
-  padding-top: 60px;
-  padding-bottom: 24px;
+  padding:60px 20px 24px;
   border-top: 1px solid #EEEEEE;
   background-color: #F9F9F7;
 }
@@ -286,7 +285,7 @@ a {
 
 .footer_link a {
   display: block;
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   text-decoration: none;
   -webkit-transition: .35s ease-in-out;
   -moz-transition: .35s ease-in-out;
@@ -313,10 +312,11 @@ a {
 }
 
 .footer_link_title {
-  font-size: 0.725rem;
+  font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 16px;
   display: block;
+  color: #8b8b8b;
 }
 
 .copy {
@@ -329,17 +329,11 @@ a {
   text-decoration: none;
 }
 
-.footer_link_title {
-  font-size: 0.725rem;
-  font-weight: bold;
-  padding-bottom: 16px;
-  display: block;
-}
 
 @media screen and (max-width: 768px) {
   .footer_bg {
     padding-top: 32px;
-    padding-bottom: 16px;
+    padding-bottom: 80px;
     padding-left: 24px;
     padding-right: 24px;
     border-top: 1px solid #EEEEEE;

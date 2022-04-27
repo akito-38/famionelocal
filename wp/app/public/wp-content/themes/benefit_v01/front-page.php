@@ -260,7 +260,7 @@ if ( $query->have_posts() ) : ?>
                 <a href="<?php echo home_url(); ?>/interview/">取組一覧</a>
             </div>
             <div class="success-list-btn btn">
-                <a href="<?php echo home_url(); ?>/benefit/benefit_list/">取組団体一覧</a>
+                <a href="/benefit/benefit_list/">取組団体一覧</a>
             </div>
         </div>
         <!--</div>-->
@@ -677,10 +677,10 @@ if ( $query->have_posts() ) : ?>
 
                 <div class="btnWrapper">
                     <div class="success-list-btn btn">
-                        <a href="http://famionelocal.local/benefit/benefit_list/">お問い合わせ</a>
+                        <a href="https://form.run/@famione-jichitai">お問い合わせ</a>
                     </div>
                     <div class="border-list-btn btn">
-                        <a href="http://famionelocal.local/interview/">資料請求</a>
+                        <a href="https://famione.co.jp/local-contact">資料請求</a>
                     </div>
                 </div>
             </div>

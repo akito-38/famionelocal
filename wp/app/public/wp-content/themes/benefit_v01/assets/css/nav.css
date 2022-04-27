@@ -253,7 +253,10 @@
   width: 140px;
   color: #fff;
   border: none;
-
+}
+.bl_mainHeader_list .bl_mainHeader_btn--contact:hover{
+  color:#fff;
+  opacity:0.8;
 }
 
 #header .bl_mainHeader_list .bl_mainHeader_btn--contact:hover {
@@ -284,7 +287,7 @@
 }
 
 .bl_mainHeader_list .bl_mainHeader_btn--document:hover {
-  color: #67C0A7;
+  opacity:0.8;
 }
 
 @media screen and (max-width: 768px) {

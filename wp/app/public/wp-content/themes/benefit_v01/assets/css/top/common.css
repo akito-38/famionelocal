@@ -305,9 +305,8 @@
 }
 
 .button:hover {
-	background: #D8793A;
-	border-radius: 8px;
-	color: #fff;
+
+	opacity:0.8;
 }
 
 .button_body {
@@ -384,9 +383,7 @@
 }
 
 .subbutton:hover {
-	background: #f7f7f7;
-	border-radius: 8px;
-	color: #D8793A;
+	opacity:0.8;
 }
 
 .subbutton_body {

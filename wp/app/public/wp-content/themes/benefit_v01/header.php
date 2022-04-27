@@ -1,3 +1,6 @@
+<?php
+  include(TEMPLATEPATH. '/inc/constants.php');
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -57,17 +60,17 @@
     <nav class="bl_mainHeader_right">
       <ul class="bl_mainHeader_list">
 
+      <li>
+          <a href="<?php print SITE_URL; ?>">自治体のみなさまへ</a>
+      </li>
+      <li>
+          <a href="<?php print SITE_URL; ?>/interview">取組事例</a>
+      </li>
+      <li>
+          <a href="<?php print SITE_URL; ?>/about">interview</a>
+      </li>
 
 
-        <li>
-          <a href="/benefit/">福利厚生トップ</a>
-        </li>
-        <li>
-          <a href="/benefit/interview/">事例一覧</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://famione.co.jp/">運営会社</a>
-        </li>
         <li class="bl_mainHeader_list_drop js-dropDown">
           <span>個人の方</span>
           <ul class="bl_mainHeader_list_sub">
@@ -99,11 +102,11 @@
         </li>
 
         <li>
-          <a href="https://famione.co.jp/benefit-contact/"
+          <a href="https://form.run/@famione-jichitai"
             class="bl_mainHeader_btn bl_mainHeader_btn--contact">お問い合わせ</a>
         </li>
         <li>
-          <a href="https://famione.co.jp/benefit-download/"
+          <a href="https://famione.co.jp/local-contact"
             class="bl_mainHeader_btn bl_mainHeader_btn--document">資料請求</a>
         </li>
       </ul>
