@@ -119,14 +119,22 @@
   }
 
   .main-btn-box {
-    display: grid;
-    gap: 24px;
+    display: block;
+
     padding: 0 10px;
-    grid-template-columns: 1fr 1fr;
-    margin: 70px 0 0;
+
+    margin: 0px 0 0;
     width: 100%;
   }
 
+  .main-btn-box .border-list-btn {
+    width: 100%;
+    margin-top: 24px;
+
+  }
+  .main-btn-box .border-list-btn a{
+    font-size:1.3rem ;
+  }
   .main-btn-box .main-btn {
     margin: 0;
     width: 100%;
@@ -134,10 +142,16 @@
   }
 
   .btn-column {
-    display: grid;
-    gap: 32px;
+    display: block;
+    /* gap: 32px;
     grid-template-columns: 1fr 1fr;
-    margin: auto;
+    margin: auto; */
+  }
+
+  .btn-box .btn {
+    height: 56px;
+    margin-bottom: 24px;
+
   }
 
   .btn {
@@ -542,6 +556,11 @@
     width: 100%;
     font-size: 1.4rem;
   }
+  .success-list-btn img,
+.border-list-btn img{
+  width: 14px;
+  margin-right: 5px;
+}
 
   .for-box {
     padding: 16px;
@@ -670,6 +689,12 @@
     -ms-flex-pack: center;
     justify-content: center;
     width: 100%;
+  }
+
+  .main-box .interviewee {
+    font-size: 1rem;
+    margin-top: 8px;
+    margin-bottom: 10px;
   }
 
   /*  .sccess-item-list {
@@ -885,13 +910,14 @@
     width: 90%;
   }
 
+  /*
   .btn-box {
     display: grid;
     gap: 24px;
     grid-template-columns: 1fr 1fr;
     margin: auto;
     width: 100%;
-  }
+  } */
 
   .flickity-viewport {
     padding: 24px 0;
@@ -932,5 +958,10 @@
   .flickity-page-dots {
     bottom: -10px;
   }
-
+  .company-data-box strong {
+    font-size: 1.2rem;
+  }
+  .company-data-box p {
+    font-size: 1.2rem;
+  }
 }
