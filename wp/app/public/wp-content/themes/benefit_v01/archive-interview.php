@@ -3,7 +3,7 @@
 <div class="fv-list">
     <div class="fv-inner-list">
         <!-- タグ変更p→h2 -->
-        <h2 class="fv-title">事例一覧</h2>
+        <h2 class="fv-title">取組実績</h2>
     </div>
 </div>
 
@@ -12,8 +12,9 @@
     <ul class="gallery">
 
         <?php while (have_posts()) : the_post(); ?>
-        <a href="<?php the_permalink(); ?>">
-            <li class="sccess-item-list">
+
+        <li class="sccess-item-list">
+            <a href="<?php the_permalink(); ?>">
                 <div class="success-item-box">
 
                     <div class="success-item-box-inner-list">
@@ -36,13 +37,33 @@
                             <p class="success-item-sub-title success-item-sub-title-list"><?php the_title(); ?></p>
                         </div>
                     </div>
+                    <div class="success-item-box-btn">詳細を見る</div>
 
                 </div>
-            </li>
-        </a>
-        <?php endwhile; ?>
+            </a>
+        </li>
 
+        <?php endwhile; ?>
     </ul>
+    <div class="bl_paginationWrapper">
+        <?php
+            the_posts_pagination(array(
+                'mid_size' => 3,
+                'prev_text' => '<',
+                'next_text' => '>',
+                'screen_reader_text'=>''
+            )) ;
+        ?>
+    </div>
+    <!-- ボタンを横並びにするために親要素を追加 -->
+    <div class="main-btn-box main-btn-box__list">
+        <div class="border-list-btn btn">
+            <a href="<?php echo home_url(); ?>">TOPに戻る</a>
+        </div>
+        <div class="border-list-btn btn">
+            <a href="<?php echo home_url(); ?>/interview/">取組実績一覧</a>
+        </div>
+    </div>
 </div>
 
 <?php get_footer(); ?>
