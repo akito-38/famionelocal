@@ -36,6 +36,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .sccess-item-list {
+    padding: 16px;
+  }
+
   .fv-pc {
     display: none;
   }
@@ -119,11 +123,11 @@
 
   .main-btn-box {
     display: block;
-
+    box-sizing: border-box;
     padding: 0 10px;
 
-    margin: 0px 0 0;
-    width: 100%;
+    margin: 0px auto 40px;
+    width: 327px;
   }
 
   .main-btn-box .border-list-btn {
@@ -535,12 +539,13 @@
 
   .success-item-title {
     font-size: 1.4rem;
-    margin: 0;
+    margin: 0 0 10px;
   }
 
   .success-item-sub-title {
     font-size: 1.6rem;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    line-height: 1.4;
   }
 
   .success-item-btn {
@@ -910,6 +915,11 @@
     gap: 32px;
     grid-template-columns: 1fr;
     width: 90%;
+    margin-bottom: 80px;
+  }
+
+  .bl_paginationWrapper {
+    margin-bottom: 70px;
   }
 
   /*
