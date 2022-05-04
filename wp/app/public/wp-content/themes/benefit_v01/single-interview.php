@@ -72,7 +72,7 @@
             <a href="/">TOPに戻る</a>
         </div>
         <div class="border-list-btn btn">
-            <a href="<?php echo home_url(); ?>/interview/">導入事例一覧</a>
+            <a href="<?php echo home_url(); ?>/interview/">取組実績一覧</a>
         </div>
     </div>
 

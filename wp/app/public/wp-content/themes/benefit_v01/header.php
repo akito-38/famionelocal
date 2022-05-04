@@ -61,45 +61,14 @@
       <ul class="bl_mainHeader_list">
 
       <li>
-          <a href="<?php print SITE_URL; ?>">自治体のみなさまへ</a>
+          <a href="<?php print SITE_URL; ?>">自治体導入トップ</a>
       </li>
       <li>
-          <a href="<?php print SITE_URL; ?>/interview">取組事例</a>
+          <a href="<?php print SITE_URL; ?>/interview">取組事例一覧</a>
       </li>
       <li>
-          <a href="<?php print SITE_URL; ?>/about">interview</a>
+          <a target="_blank" href="https://famione.co.jp/">運営会社</a>
       </li>
-
-
-        <li class="bl_mainHeader_list_drop js-dropDown">
-          <span>個人の方</span>
-          <ul class="bl_mainHeader_list_sub">
-            <li>
-              <a href="/famioneplus/">妊活LINEサポート</a>
-            </li>
-            <li>
-              <a href="https://lp.famione.com/faq/">よくあるご質問</a>
-            </li>
-            <li>
-              <a href="/live/">妊活ライブ</a>
-            </li>
-            <li>
-              <a href="/premium/">プレミアムプラン</a>
-            </li>
-            <li>
-              <a href="https://flora.famione.com/">子宮内フローラキット</a>
-            </li>
-            <li>
-              <a href="/mall/">ファミワンモール</a>
-            </li>
-            <li>
-              <a href="/career/">ファミワンキャリア</a>
-            </li>
-            <li>
-              <a href="/column/">妊コラム</a>
-            </li>
-          </ul>
-        </li>
 
         <li>
           <a href="https://form.run/@famione-jichitai"

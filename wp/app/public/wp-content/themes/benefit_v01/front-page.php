@@ -6,14 +6,10 @@
         <div class="inner_body">
             <div class="main-visual-text">
                 <span class="main-visual-text_forgov">自治体関係者のみなさまへ</span>
-                <h1 class="main-visual-text_title"><span class="orange">不妊治療</span>や<span
-                        class="orange">女性活躍推進</span>の<br>
+                <h1 class="main-visual-text_title"><span class="orange">不妊治療</span>や<span class="orange">女性活躍推進</span>の<br>
                     課題解決を専門家がサポート</h1>
                 <p>月経、妊活、更年期、性教育。これらは性別、年齢にかかわらず誰もが当事者になる課題で、誰もがサポーターになることができます。正しく知ることは自分を含む自分の大切な人を守ることにつながります。<br>
                     わたしたちファミワンは、課題の根本解決に必要な知識・情報に誰でもすぐにアクセスでき、安心で健やかに暮らせる社会にしたいと考えています。</p>
-                <span class="main-visual-text_btn_box">
-                    <a class="button" href="https://form.run/@famione-jichitai">お問い合わせ</a>
-                    <a class="subbutton" href="https://famione.co.jp/local-contact">資料請求</a>
             </div>
         </div>
     </div>
@@ -28,27 +24,21 @@
 
 <div class="custmer-bar">
     <p class="custmer-bar-title">様々な企業様にてファミワンの妊活・不妊治療サポートを<br class="br-sp">福利厚生としての導入等で活用いただいています</p>
-
     <ul class="municipality-list">
         <li>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality01.png" alt=""
-                width="200" height="60" loading="lazy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality01.png" alt="" width="200" height="60" loading="lazy">
         </li>
         <li>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality02.png" alt=""
-                width="200" height="60" loading="lazy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality02.png" alt="" width="200" height="60" loading="lazy">
         </li>
         <li>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality03.png" alt=""
-                width="200" height="60" loading="lazy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality03.png" alt="" width="200" height="60" loading="lazy">
         </li>
         <li>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality04.png" alt=""
-                width="200" height="60" loading="lazy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality04.png" alt="" width="200" height="60" loading="lazy">
         </li>
         <li>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality05.png" alt=""
-                width="200" height="60" loading="lazy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality05.png" alt="" width="200" height="60" loading="lazy">
         </li>
     </ul>
 </div>
@@ -168,8 +158,7 @@
 
                     <div class="famione_service_box">
                         <h3>ヘルスケアと<span class="orange">女性活躍支援</span></h3>
-                        <p>更年期や月経というプライベートでセンシティブな問題の基礎知識を理解する。<span
-                                class="orange">相談されやすい関係性を作るために、当事者の困難さやコミュニケーションの取り方</span>を知る。
+                        <p>更年期や月経というプライベートでセンシティブな問題の基礎知識を理解する。<span class="orange">相談されやすい関係性を作るために、当事者の困難さやコミュニケーションの取り方</span>を知る。
                         </p>
                         <img src="https://famione.com/local/images/kadai04.jpg">
                     </div>
@@ -206,7 +195,6 @@
     </section>
 </div>
 
-
 <div class="background_containerPink">
     <!-- 導入実績 -->
     <section class="section-wrapper" id="success">
@@ -239,8 +227,7 @@ if ( $query->have_posts() ) : ?>
                     <div class="success-item-box">
                         <a href="<?php the_permalink(); ?>">
                             <div class="success-item-box-inner">
-                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium_large'); ?>"
-                                    alt="">
+                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium_large'); ?>" alt="">
                                 <div class="success-item-box-text">
                                     <p class="success-item-title"><?php the_field('company'); ?></p>
                                     <p class="success-item-sub-title"><?php the_title(); ?></p>
@@ -252,16 +239,15 @@ if ( $query->have_posts() ) : ?>
                 </li>
                 <?php endwhile; ?>
                 <?php endif; wp_reset_postdata(); ?>
-
             </ul>
         </div>
         <div class="btnWrapper">
             <div class="border-list-btn btn">
                 <a href="<?php echo home_url(); ?>/interview/">取組一覧</a>
             </div>
-            <div class="success-list-btn btn">
+            <!-- <div class="success-list-btn btn">
                 <a href="/benefit/benefit_list/">取組団体一覧</a>
-            </div>
+            </div> -->
         </div>
         <!--</div>-->
     </section>
@@ -272,24 +258,19 @@ if ( $query->have_posts() ) : ?>
 
     <ul class="municipality-list">
         <li>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality01.png" alt=""
-                width="200" height="60" loading="lazy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality01.png" alt="" width="200" height="60" loading="lazy">
         </li>
         <li>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality02.png" alt=""
-                width="200" height="60" loading="lazy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality02.png" alt="" width="200" height="60" loading="lazy">
         </li>
         <li>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality03.png" alt=""
-                width="200" height="60" loading="lazy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality03.png" alt="" width="200" height="60" loading="lazy">
         </li>
         <li>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality04.png" alt=""
-                width="200" height="60" loading="lazy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality04.png" alt="" width="200" height="60" loading="lazy">
         </li>
         <li>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality05.png" alt=""
-                width="200" height="60" loading="lazy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality05.png" alt="" width="200" height="60" loading="lazy">
         </li>
     </ul>
 </div>
@@ -306,7 +287,7 @@ if ( $query->have_posts() ) : ?>
 
 <section class="section-wrapper">
     <div class="section-inner">
-        <h3 class="section-title">プレスリリース</h3>
+        <h3 class="section-title">自治体関連の活動</h3>
 
         <ul class="news-list">
             <?php
@@ -339,26 +320,22 @@ if ( $query->have_posts() ) : ?>
                                 ※経済産業省　　2021年4月28日<br>フェムテックを活用して、働く女性の健康をサポートし就業継続を支える仕組み作りを応援します！</p>
                         </div>
                         <picture>
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/industry_sp.png"
-                                media="(max-width: 768px)" />
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/industry_pc.png"
-                                alt="経済産業省" width="469" height="327" loading="lazy" />
+                            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/industry_sp.png" media="(max-width: 768px)" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/industry_pc.png" alt="経済産業省" width="469" height="327" loading="lazy" />
                             <picture>
                     </div>
 
                     <p class="seminar-text-title bold seminar-text-tac">
-                        「妊活xまちづくりの視点で、暮らしやすい/働きやすい街を一緒に考えたい」勉強会、<br>
-                        「フェムテックで行政課題を解決する　妊活とヘルスケアセミナー」参加自治体
+                        令和３年10月末に、『妊活×まちづくりの視点で、暮らしやすく、働きやすい地域づくりを一緒に考たい』を<br>
+                        テーマとした自治体職員・議員勉強会を開催しました。
                     </p>
                     <div class="banner_img">
                         <picture>
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/banner_sp.jpg"
-                                media="(max-width: 768px)" />
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/banner_pc.jpg" alt=""
-                                width="800" height="120" loading="lazy" />
+                            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/banner_sp.jpg" media="(max-width: 768px)" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/banner_pc.jpg" alt="" width="800" height="120" loading="lazy" />
                             <picture>
                     </div>
-
+                    <h3 class="seminar-text-title">参加自治体一覧</h3>
                     <div class="seminar_about_pc">
                         <table>
                             <tbody>
@@ -387,8 +364,6 @@ if ( $query->have_posts() ) : ?>
                                     <th>福島県</th>
                                     <td>會津若松市・浅川町・いわき市・国見町・福島市</td>
                                 </tr>
-
-
                                 <tr>
                                     <th rowspan="6">関東</th>
                                     <th>茨城県</th>
@@ -670,8 +645,7 @@ if ( $query->have_posts() ) : ?>
     <!-- 企業での妊活サポートを実現しませんか？ -->
     <div class="btn-form-first">
         <div class="btn-form-first-inner">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cv_left_pc.png" alt="" width="142"
-                height="204" loading="lazy" class="btn-form-first-img btn-form-first-img__left">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cv_left_pc.png" alt="" width="142" height="204" loading="lazy" class="btn-form-first-img btn-form-first-img__left">
             <div>
                 <p class="btn-form-title">ファミワンが住民の皆さまの<br>妊活・不妊治療の相談をフルサポートします</p>
 
@@ -684,15 +658,14 @@ if ( $query->have_posts() ) : ?>
                     </div>
                 </div>
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cv_right_pc.png" alt="" width="154"
-                height="204" loading="lazy" class="btn-form-first-img btn-form-first-img__right">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cv_right_pc.png" alt="" width="154" height="204" loading="lazy" class="btn-form-first-img btn-form-first-img__right">
         </div>
     </div>
 </section>
 
-<a class="button button_fix" href="https://form.run/@famione-jichitai">
+<!-- <a class="button button_fix" href="https://form.run/@famione-jichitai">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/email.svg" alt="" width="20" loading="lazy">
     お問い合わせ
-</a>
+</a> -->
 
 <?php get_footer(); ?>

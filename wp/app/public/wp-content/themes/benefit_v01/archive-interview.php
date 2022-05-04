@@ -38,7 +38,6 @@
                         </div>
                     </div>
                     <div class="success-item-box-btn">詳細を見る</div>
-
                 </div>
             </a>
         </li>
@@ -59,9 +58,6 @@
     <div class="main-btn-box main-btn-box__list">
         <div class="border-list-btn btn">
             <a href="<?php echo home_url(); ?>">TOPに戻る</a>
-        </div>
-        <div class="border-list-btn btn">
-            <a href="<?php echo home_url(); ?>/interview/">取組実績一覧</a>
         </div>
     </div>
 </div>
