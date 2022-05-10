@@ -33,13 +33,10 @@
             ?>
             <img src="<?php echo $src; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" alt="">
             <div class="company-data-box">
-                <p><strong>社名</strong><br>
+                <p><strong>自治体</strong><br>
                     <?php the_field('company'); ?>
                 </p>
-                <p><strong>業種</strong><br>
-                    <?php the_field('industry'); ?>
-                </p>
-                <p><strong>従業員数</strong><br>
+                <p><strong>住民数</strong><br>
                     <?php the_field('employee_num'); ?>
                 </p>
             </div>
