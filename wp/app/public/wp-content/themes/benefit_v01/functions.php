@@ -3,22 +3,20 @@
 //読み込み
 // ------------------------------------------------------------*/
 function import_header_scripts() {
-
-       wp_enqueue_style( 'reset', get_template_directory_uri() . '/assets/css/reset.css');
-       wp_enqueue_style( 'flickity', 'https://unpkg.com/flickity@2/dist/flickity.min.css');
-       wp_enqueue_style( 'assetscommon', get_template_directory_uri() . '/assets/css/common.css');
-       wp_enqueue_style( 'style', get_template_directory_uri() . '/assets/css/style.css');
-       wp_enqueue_style( 'query', get_template_directory_uri() . '/assets/css/query.css');
-       wp_enqueue_style( 'nav', get_template_directory_uri() . '/assets/css/nav.css');
-       wp_enqueue_style( 'footer', 'https://famione.com/css/footer.css');
+       $my_theme = wp_get_theme();
+       wp_enqueue_style( 'reset', get_template_directory_uri() . '/assets/css/reset.css', array(), $my_theme->get( 'Version' ));
+       wp_enqueue_style( 'flickity', 'https://unpkg.com/flickity@2/dist/flickity.min.css', array(), $my_theme->get( 'Version' ));
+       wp_enqueue_style( 'assetscommon', get_template_directory_uri() . '/assets/css/common.css', array(), $my_theme->get( 'Version' ));
+       wp_enqueue_style( 'style', get_template_directory_uri() . '/assets/css/style.css', array(), $my_theme->get( 'Version' ));
+       wp_enqueue_style( 'query', get_template_directory_uri() . '/assets/css/query.css', array(), $my_theme->get( 'Version' ));
+       wp_enqueue_style( 'nav', get_template_directory_uri() . '/assets/css/nav.css', array(), $my_theme->get( 'Version' ));
+       wp_enqueue_style( 'footer', 'https://famione.com/css/footer.css', array(), $my_theme->get( 'Version' ));
 
       if(is_home()){
-        wp_enqueue_style( 'commontop', get_template_directory_uri() . '/assets/css/top/common.css');
-        wp_enqueue_style( 'government', get_template_directory_uri() . '/assets/css/top/government.css');
-        wp_enqueue_style( 'styletop', get_template_directory_uri() . '/assets/css/top/style.css');
+        wp_enqueue_style( 'commontop', get_template_directory_uri() . '/assets/css/top/common.css', array(), $my_theme->get( 'Version' ));
+        wp_enqueue_style( 'government', get_template_directory_uri() . '/assets/css/top/government.css', array(), $my_theme->get( 'Version' ));
+        wp_enqueue_style( 'styletop', get_template_directory_uri() . '/assets/css/top/style.css', array(), $my_theme->get( 'Version' ));
       }
-
-
 
        wp_enqueue_script( 'jquery' );
   }
@@ -28,9 +26,10 @@ function import_header_scripts() {
 //   //JSファイル追加の関数
 //   // ------------------------------------------------------------*/
   function my_load_widget_scripts() {
+    $my_theme = wp_get_theme();
     //   wp_enqueue_script( 'protonet', 'https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js', true, array());
-      wp_enqueue_script( 'pkgd','https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', true, array());
-    wp_enqueue_script( 'script',get_template_directory_uri() . '/assets/js/script.js', true, array());
+    wp_enqueue_script( 'pkgd','https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', true, array());
+    wp_enqueue_script( 'script',get_template_directory_uri() . '/assets/js/script.js',  array(), $my_theme->get( 'Version' ));
   }
   // wp_footerに処理を登録
   add_action('wp_footer', 'my_load_widget_scripts');
