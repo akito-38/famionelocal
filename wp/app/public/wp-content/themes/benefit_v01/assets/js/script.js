@@ -43,23 +43,9 @@ jQuery(function ($) {
     });
   }); // end DOM ready
 
+  jQuery('.js-moreBtn').on('click', function () {
+    jQuery('.js-slideWrapper').addClass('is-active');
+    console.log('dd');
+  });
 
 });
-
-// // jquery.pagination.js
-// jQuery('.gallery').pagination({
-//   itemElement : '> .sccess-item-list', // アイテムの要素
-//   displayItemCount : 12,// 1ページ毎に表示する個数
-//   pageNumberDisplayNumber : 3, // ページ番号の表示個数
-//   ellipsisMaxPageNumber : '10', // 省略記号が表示される最大ページ数
-//   ellipsisMode : true,// 省略記号を表示するかどうか
-//   paginationClassName : 'pager-container', // ページネーション本体のクラス名
-//   pageNumberClassName : 'page-number',// ページネーション本体の内側のクラス名
-//   nextBtnText : '<i class="material-icons">navigate_next</i>',
-//   prevBtnText : '<i class="material-icons">navigate_before</i>',
-//   onePageOnlyDisplay : true,// 1ページのみの場合にページネーションを表示するかどうか
-//   changeEndCallback : function() {
-//     // クリックした後にページの一番上までアニメーションスクロール
-//     jQuery('body,html').animate({ scrollTop: 0 }, 500);
-//   }
-// });

@@ -276,29 +276,36 @@ if ( $query->have_posts() ) : ?>
 </div>
 
 <?php
-  $url = "https://famione.co.jp/wp-json/wp/v2/posts?categories=4&per_page=5&_embed&_fields=id,title,link,date,_links,categories";
+  $url = "https://prtimes.jp/companyrdf.php?company_id=14333";
 
   //オプション設定
 
-  $json = file_get_contents($url, false, stream_context_create($options));
-  $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
-  $cojpBlogs = json_decode($json,true);
+  $rssData = simplexml_load_file($url);
 ?>
 
 <section class="section-wrapper">
     <div class="section-inner">
         <h3 class="section-title">自治体関連の活動</h3>
-
-        <ul class="news-list">
-            <?php
-      foreach($cojpBlogs as $cojpBlog){?>
-            <li>
-                <a class="news_link" target="_blank" href="<?php print $cojpBlog['link']; ?>">
-                    <?php print strip_tags($cojpBlog['title']['rendered']); ?>
-                </a>
-            </li>
-            <?php  }?>
-        </ul>
+        <div class="news-list_slideWrapper js-slideWrapper">
+        <button type="button" class="border-list-btn btn js-moreBtn">もっと見る</button>
+            <ul class="news-list">
+                <?php
+                    foreach($rssData->item as $cojpBlog):
+                        $description=$cojpBlog->description;
+                        $inKey=mb_strpos($description,'【自治体関連の展開】');
+                        if($inKey<15 && $inKey!==false):;
+                ?>
+                <li>
+                    <a class="news_link" target="_blank" href="<?php print $cojpBlog->link; ?>">
+                        <?php print esc_html($cojpBlog->title); ?>
+                    </a>
+                </li>
+                <?php
+                    endif;
+                    endforeach;
+                ?>
+            </ul>
+        </div>
     </div>
 </section>
 <!--横須賀市での導入事例-->
