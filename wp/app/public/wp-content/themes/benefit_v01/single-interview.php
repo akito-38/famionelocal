@@ -66,7 +66,7 @@
     <!-- ボタンを横並びにするために親要素を追加 -->
     <div class="main-btn-box">
         <div class="border-list-btn btn">
-            <a href="/">TOPに戻る</a>
+            <a href="<?php echo home_url(); ?>">TOPに戻る</a>
         </div>
         <div class="border-list-btn btn">
             <a href="<?php echo home_url(); ?>/interview/">取組実績一覧</a>

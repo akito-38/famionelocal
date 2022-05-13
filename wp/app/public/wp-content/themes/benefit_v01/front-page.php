@@ -23,7 +23,7 @@
 <!-- 様々な企業様にてファミワンの妊活・不妊治療サポートを 福利厚生としての導入等で活用いただいています -->
 
 <div class="custmer-bar">
-    <p class="custmer-bar-title">様々な企業様にてファミワンの妊活・不妊治療サポートを<br class="br-sp">福利厚生としての導入等で活用いただいています</p>
+    <p class="custmer-bar-title">様々な自治体様がファミワンを導入いただき、<br class="br-sp">妊活・不妊治療をサポートしています</p>
     <ul class="municipality-list">
         <li>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/municipality01.png" alt="" width="200" height="60" loading="lazy">
@@ -202,13 +202,13 @@
             <div class="section-title-box">
                 <h3 class="section-title">各種セミナー・LINEサポート取組事例</h3>
                 <p class="section-sub-text seminar-sub-text">
-                    ファミワンのを福利厚生として従業員向け妊活支援を導入して、<br>管理職や若手社員向けの啓発など、企業の風土を変える取り組みをされている企業の事例をご紹介します。</p>
+                    ファミワンを導入いただき、<br>妊活・不妊治療に関する課題解決の取り組みをされている自治体の事例をご紹介します。
+                </p>
             </div>
 
         </div>
         <div class="success-slider">
             <ul class="js-flickity">
-
                 <!--カスタム投稿-->
                 <?php
 /* （ステップ1）データの取得 */
@@ -254,7 +254,7 @@ if ( $query->have_posts() ) : ?>
 </div>
 
 <div>
-    <p class="custmer-bar-title">様々な企業様にてファミワンの妊活・不妊治療サポートを<br class="br-sp">福利厚生としての導入等で活用いただいています</p>
+    <p class="custmer-bar-title">様々な自治体様がファミワンを導入いただき、<br class="br-sp">妊活・不妊治療をサポートしています</p>
 
     <ul class="municipality-list">
         <li>
@@ -670,9 +670,9 @@ if ( $query->have_posts() ) : ?>
     </div>
 </section>
 
-<!-- <a class="button button_fix" href="https://famione.co.jp/contact/">
+<a class="button button_fix" href="https://famione.co.jp/contact/">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/email.svg" alt="" width="20" loading="lazy">
     お問い合わせ
-</a> -->
+</a>
 
 <?php get_footer(); ?>
