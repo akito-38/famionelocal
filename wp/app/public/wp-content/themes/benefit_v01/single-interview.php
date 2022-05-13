@@ -49,7 +49,7 @@
         <div class="topics-sub-box">
             <h2 class="topics-sub-box-txt">ファミワンが住民の皆さまの<span class="orange">妊活・不妊治療の相談</span>をフルサポートします</h2>
             <div class="btn-box btn-column">
-                <div class="success-list-btn btn"><a href="https://form.run/@famione-jichitai">
+                <div class="success-list-btn btn"><a href="https://famione.co.jp/contact/">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/email.svg" alt=""
                             width="20" loading="lazy">
                         お問い合わせ

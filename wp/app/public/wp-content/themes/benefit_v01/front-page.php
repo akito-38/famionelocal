@@ -658,7 +658,7 @@ if ( $query->have_posts() ) : ?>
 
                 <div class="btnWrapper">
                     <div class="success-list-btn btn">
-                        <a href="https://form.run/@famione-jichitai">お問い合わせ</a>
+                        <a href="https://famione.co.jp/contact/">お問い合わせ</a>
                     </div>
                     <div class="border-list-btn btn">
                         <a href="https://famione.co.jp/local-contact">資料請求</a>
@@ -670,7 +670,7 @@ if ( $query->have_posts() ) : ?>
     </div>
 </section>
 
-<!-- <a class="button button_fix" href="https://form.run/@famione-jichitai">
+<!-- <a class="button button_fix" href="https://famione.co.jp/contact/">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/email.svg" alt="" width="20" loading="lazy">
     お問い合わせ
 </a> -->

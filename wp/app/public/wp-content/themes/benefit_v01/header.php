@@ -71,7 +71,7 @@
       </li>
 
         <li>
-          <a href="https://form.run/@famione-jichitai"
+          <a href="https://famione.co.jp/contact/"
             class="bl_mainHeader_btn bl_mainHeader_btn--contact">お問い合わせ</a>
         </li>
         <li>
