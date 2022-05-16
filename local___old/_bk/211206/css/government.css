@@ -1,0 +1,912 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*---------------------------------
+
+キービジュアル
+
+---------------------------------*/
+.main-visual {
+	height:480px;
+	width:100%;
+	background-size: cover;
+	background-position: center;
+   background: linear-gradient(106.55deg, #FFFFFF 9.23%, #F7FBF0 43.4%);
+}
+.main-visual-img{
+    background: url(../images/main_pc.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main-visual-text{
+    width:560px;
+/*    background-color: #ff0000;*/
+    position:relative;
+    top:40px;
+}
+.main-visual-text_forgov{
+font-size: 14px;
+text-align: center;
+letter-spacing: 1.2px;
+color: #F28B34;
+background: #FFFFFF;
+border: 1px solid #F28B34;
+box-sizing: border-box;
+border-radius: 999px;
+    padding:8px 16px;
+}
+.main-visual-text_title{
+font-weight: bold;
+font-size: 40px;
+line-height: 135%;
+letter-spacing: 0.6;
+margin-top:16px;
+font-family: Tsukushi A Round Gothic;
+color:#454545;
+}
+.main-visual-text_btn_box{
+  	display: grid;
+	gap:16px;
+	grid-template-columns: 1fr 1fr;	
+margin-top:16px;
+    width:88%;
+}
+.main-visual-text p{
+    line-height: 2;
+margin-top:16px;
+}
+@media screen and (max-width: 767px) {
+.main-visual-img{
+    background: url(../images/main_sp.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.main-visual-text{
+    width:100%;
+/*    background-color: #ff0000;*/
+    position:relative;
+    top:244px;
+}
+.main-visual-text_forgov {
+    font-size: 12px;
+    padding: 6px 14px;
+}
+    .main-visual-text_title {
+    font-size: 24px;
+    line-height: 150%;
+ }
+.main-visual-text p {
+    line-height: 2;
+    margin-top: 8px;
+    }
+.main-visual-text_btn_box {
+     width: 100%; 
+}
+.main-visual {
+   background: #fff;
+}
+}
+@media screen and (max-width: 414px) {.main-visual{height: 640px;}.main-visual-text {top: 264px;}}
+@media screen and (max-width: 411px) {.main-visual{height: 630px;}}
+@media screen and (max-width: 375px) {.main-visual{height: 630px;}.main-visual-text {top: 240px;}}
+@media screen and (max-width: 360px) {.main-visual{height: 630px;}}
+@media screen and (max-width: 320px) {.main-visual{height: 630px;}.main-visual-text {top: 208px;}}
+
+/*---------------------------------
+
+H2の下カラー
+
+---------------------------------*/
+.headline_text:before {
+	background-color: #D9905E; /*線の色*/
+}
+/*---------------------------------
+
+オレンジの色
+
+---------------------------------*/
+.orange{
+      color: #F28B34;  
+}
+
+/*---------------------------------
+
+セミナーCVRエリア
+
+---------------------------------*/
+.seminar-cvr{
+    background: #FFF4EB;
+    text-align: center;
+}
+.seminar-cvr .container{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.seminar-cvr_inner{
+    background-image: url("../images/pc_cvr_bg.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;   
+    padding: 40px; 
+}
+.seminar-cvr_info{
+    background: #FFFFFF;
+    border: 1px solid #F28B34;
+    box-sizing: border-box;
+    border-radius: 999px;
+    margin-top:40px;
+    color: #F28B34;
+    padding:8px 24px;
+    font-size: 14px;
+}
+.seminar-cvr h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: #F28B34;
+    margin:16px 0;
+    font-family: Tsukushi A Round Gothic;
+}
+.seminar-cvr p{
+    margin-bottom:24px; 
+}
+.seminar-cvr .material-icons{
+    position: relative;
+    top:6px;
+}
+.seminar-cvr .subbutton{
+    width:240px;
+    height:48px;
+    line-height: 48px;
+}
+@media screen and (max-width: 767px) {
+ .seminar-cvr_inner{
+    background-image: url("../images/sp_cvr_bg.png");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;   
+    padding: 0; 
+    padding-bottom: 40px;
+}   
+.seminar-cvr_info{
+    background: #FFFFFF;
+    border: 1px solid #F28B34;
+    box-sizing: border-box;
+    border-radius: 999px;
+    margin-top:40px;
+    color: #F28B34;
+    padding:6px 16px;
+    font-size: 12px;
+}
+.seminar-cvr h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: #F28B34;
+    margin:16px 0;
+}
+.seminar-cvr p{
+    margin-bottom:16px; 
+    line-height: 175%;
+}
+.seminar-cvr .subbutton{
+    width:200px;
+    height:40px;
+    line-height: 40px;
+    font-size:14px;
+}
+.seminar-cvr .container {
+    padding-top: 24px;
+    padding-bottom:24px;
+}
+}
+/*---------------------------------
+
+子どもを願うすべての人によりそい、幸せな人生を歩める社会
+
+---------------------------------*/
+.introduction_text p{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 200%;
+text-align: center;
+letter-spacing: 1.2px;
+color: #454545;
+}
+.info_text_strong{
+	color: #F28B34;
+    font-weight: bold;
+}
+.info_img{
+	text-align: center;
+	margin-top:40px;
+}
+.info_img img{
+	width:728px;
+}
+@media screen and (max-width: 768px) {
+.info_text{
+	text-align: left;
+	font-size: 14px;
+}
+.info_img img{
+	width:100%;
+}
+.introduction_text p{
+line-height: 200%;
+text-align: left;
+}
+}
+/*---------------------------------
+
+ファミワンが住民の皆さまの妊活相談をフルサポートします
+
+---------------------------------*/
+.famione_service_body{
+    text-align: center;
+}
+.famione_service_grid{
+    display: grid;
+    gap:32px;
+    grid-template-columns: 1fr 1fr;	
+    margin-bottom:40px;   
+}
+.famione_service_box{
+    background: #FFFFFF;
+    border: 1px solid #D4CECA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding:32px 32px 0;
+}
+.famione_service_box img{
+    width:100%;
+}
+.famione_service_box h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: #454545;
+}
+.famione_service_box p{
+    margin-top:16px;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: justify;
+    letter-spacing: 1.2px;
+    color: #454545;
+}
+@media screen and (max-width: 767px) {
+.famione_service_grid{
+    gap:24px;
+    grid-template-columns: 1fr;	
+}
+.famione_service_box h3{
+    font-size: 20px;
+    text-align:left;
+}
+.famione_service_box p{
+    margin-top:12px;
+    font-size: 14px;
+}
+.famione_service_box{
+    padding:24px 24px 0;
+}
+}
+/*---------------------------------
+
+横須賀市での導入事例
+
+---------------------------------*/
+.yokosuka{
+	text-align: center;
+}
+.ditail_text{
+	padding-bottom:40px;
+	text-align: center;
+}
+.yokosuka_kaiken_img img{
+	width:100%;
+}
+
+.interview{
+	background: #FFFFFF;
+	border: 1px solid #D4CECA;
+	box-sizing: border-box;
+	border-radius: 16px;
+	padding:40px;
+	margin-top:60px;
+	text-align: left;
+}
+.interview_grid{
+	display: grid;
+	gap:0;
+	grid-template-columns: 1fr 3fr;	
+	margin-bottom:40px;
+        background: #FCF8F4;
+align-items: center;
+    justify-content: center;
+}
+
+.interview_grid_img img{
+	width:100%;
+}
+.interview_grid_text{
+	background: #FCF8F4;
+	text-align: left;
+}
+.interview_grid_text h3{
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 1.2px;
+color: #454545;
+flex: none;
+margin: 16px 24px;
+}
+
+.interview_name{
+	font-size:14px;
+	color:#666666;
+    margin: 8px 24px 16px;
+}
+.interview_q{
+    color: #F28B34;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: url(../images/q.png);
+    background-repeat: no-repeat;
+    background-size: 26px;
+    padding-left: 40px;
+    letter-spacing: 1.2px;
+}
+.interview_a{
+color: #454545;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    line-height: 24px;
+    /* margin-top: 12px; */
+    line-height: 2;
+    margin-left: 30px;
+    margin-top:8px;
+}
+.interview_faq{
+	margin-top:32px;
+}
+@media screen and (max-width: 768px) {
+.ditail_text{
+	padding-bottom:40px;
+	text-align: left;
+}
+.interview_grid{
+	display: grid;
+	gap:0;
+	grid-template-columns: 1fr;	
+	margin-bottom:24px;
+}
+.interview{
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	box-sizing: border-box;
+	border-radius: 16px;
+	padding:16px;
+	margin-top:40px;
+	text-align: left;
+}
+.interview_grid_text{
+	background: #FCF8F4;
+	padding:8px 16px 16px;
+	text-align: left;
+}
+.interview_name{
+	font-size:12px;
+    line-height: 175%;
+	color:#454545;
+    margin: 8px 0 0;
+}
+.interview_faq {
+    margin-top: 24px;
+}
+.interview_q{
+	color: #D9905E;
+	letter-spacing: 1.2px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+    background-size: 20px;
+    padding-left: 30px;
+    letter-spacing: 1.2px;
+}
+.interview_a{
+	color: #454545;
+	letter-spacing: 1.2px;
+	font-size: 14px;
+	margin-top:8px;
+	line-height: 175%;
+}
+.interview_grid_text h3{
+font-size: 16px;
+color: #454545;
+flex: none;
+margin:0;
+}
+}
+
+
+/*---------------------------------
+
+自治体ロゴ
+
+---------------------------------*/
+
+.gov_logo{
+	box-sizing: border-box;
+	background: #fff;
+	padding:24px;
+	text-align: center;
+filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.08));
+}
+.gov_logo p{
+    font-size:14px;
+    margin-bottom: 12px;
+}
+
+.gov_logo_list{
+width: 200px;
+    height: 61px;
+    background: #FFFFFF;
+    border: 1px solid #EDECEB;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.gov_logo_list img{
+    width:100%;
+}
+.gov_logo_press{
+    margin-top:24px;
+}
+.gov_logo_press a {
+    padding-top: 12px;
+    display: block;
+}
+@media screen and (max-width: 768px) {
+.gov_logo p{
+    font-size:12px;
+    margin-bottom: 12px;
+}
+.gov_logo_list{
+    width: 150px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #EDECEB;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5px;
+}
+.gov_logo_press a {
+    padding-top: 16px;
+    text-align: left;
+    display: block;
+}
+}
+/*---------------------------------
+
+famione-support_grid
+
+---------------------------------*/
+.famione-support_grid{
+	display: grid;
+	gap:0;
+	grid-template-columns: 4fr 1fr 4fr;	
+	margin-bottom:24px;
+        align-items: center;
+    justify-content: center;
+}
+.famione-support_box img{
+    width:100%;
+}
+.famione-support_box{
+    background: #FFFFFF;
+border: 1px solid #D4CECA;
+box-sizing: border-box;
+border-radius: 8px;
+    padding:24px;
+border: 2px solid #F28B34;
+}
+.famione-support_box_plus{
+text-align: center;
+}
+.famione-support_box_plus img{
+    width:80px;
+    margin:24px 0;
+}
+.famione-support_box h4{
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 1.2px;
+color: #454545;  
+margin-top:16px;
+}
+.famione-support_box p{
+   margin-top:8px; 
+}
+
+.famione-line{
+ text-align: center;
+}
+.famione_line_img img{
+    width:100%;
+}
+@media screen and (max-width: 768px) {
+.famione-support_grid{
+	display: grid;
+	gap:0;
+	grid-template-columns: 1fr ;	
+	margin-bottom:24px;
+        align-items: center;
+    justify-content: center;
+}
+.famione-support_box p{
+   margin-top: 8px;
+    font-size: 12px;
+    line-height: 175%;
+}
+.famione-support_box{
+    padding:16px;
+}
+}
+/*---------------------------------
+
+行政セミナー
+
+---------------------------------*/
+
+.seminar_body{
+	background-color: #fff;
+    padding:40px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+}
+.seminar_body img{
+	width:100%;
+}
+.seminar_text{
+    text-align: center;
+    margin:24px 0 12px   
+}
+.seminar_body h3{
+font-weight: bold;
+font-size: 20px;
+letter-spacing: 1.2px;
+color: #454545;
+margin-bottom: 12px;
+}
+/*セミナー概要*/
+.seminar_about{
+    margin-bottom:40px;
+    margin-top:24px;
+}
+.seminar_about table {
+    width:100%;
+}
+
+.seminar_about td {
+    border: 1px solid #D4CECA;
+    padding: 12px;
+    color: #454545;
+    font-size:14px;
+}
+
+.seminar_about th {
+    border: 1px solid #D4CECA;
+    padding: 12px;
+    background: #EDECEB;
+    color: #454545;
+    font-weight: bold;
+    font-size:14px;
+}
+
+.seminar_about tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+/*セミナースケジュール*/
+.seminar_schedule_grid{
+    display: grid;
+    gap:32px;
+    grid-template-columns: 1fr 1fr;	
+    margin-bottom:24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:40px;
+}
+.seminar_schedule_box{
+    background: #FFFFFF;
+    border: 1px solid #D4CECA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding:24px;
+height: 100%;
+}
+.seminar_schedule_box img{
+ height:130px;
+    width:auto;
+    margin-bottom:16px;
+}
+
+/*講師・VTR出演*/
+.seminar_instructor{
+    margin-bottom:40px;
+}
+.seminar_instructor_grid{
+     display: grid;
+    gap:32px;
+    grid-template-columns: 1fr 1fr;	
+    margin-bottom:24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:40px;   
+}
+
+.seminar_instructor_box{
+    background: #FFFFFF;
+    border: 1px solid #D4CECA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding:16px;
+}
+.seminar_instructor_box_grid{
+      display: grid;
+    gap:16px;
+    grid-template-columns: 1fr 4fr;	
+    align-items: center;
+    justify-content: center;   
+}
+
+.seminar_instructor_box img{
+    width:120px;
+}
+.seminar_instructor_box_grid_text_date{
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+color: #F28B34;
+    display: block;
+font-family: Tsukushi A Round Gothic;
+}
+.seminar_instructor_box_grid_text_peason{
+font-weight: bold;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 1.2px;
+color: #454545; 
+    display: block;
+}
+.seminar_instructor_box_grid_text_title{
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 1.2px;
+color: #454545; 
+    display: block;
+}
+/*参加方法*/
+.seminar_howto{
+    margin-bottom:40px;
+}
+.seminar_howto_grid{
+     display: grid;
+    gap:32px;
+    grid-template-columns: 1fr 1fr 1fr;	
+}
+.seminar_howto_box_step{
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 1.2px;
+color: #F28B34;  
+font-family: Tsukushi A Round Gothic;
+    margin-top:8px;
+}
+.seminar_howto_box_title{
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 1.2px;
+color: #F28B34;  
+font-family: Tsukushi A Round Gothic;
+    margin-bottom:16px;
+}
+.seminar_document  .material-icons{
+    position: relative;
+    top:6px;
+}
+/*申し込みボタン*/
+.seminar_btn_body{
+  margin:auto;
+    text-align: center;
+}
+.seminar_btn_body .button{
+    width:300px;
+    margin-top: 16px;
+}
+.seminar_document h3{
+    margin-top:40px;
+}
+.seminar_document{
+    margin-bottom:40px;
+}
+@media screen and (max-width: 768px) {
+  .seminar_body {
+    background-color: #fff;
+    padding: 16px;
+}  
+.seminar_text p{
+    text-align: left;
+    
+}
+.seminar_body h3{
+font-size: 16px;
+margin-bottom: 8px;
+    
+}
+.seminar_schedule_box {
+    padding: 16px;
+}
+.seminar_schedule_box img {
+    height:90px;
+}
+.seminar_schedule_grid{
+    gap:24px;
+    grid-template-columns: 1fr;	
+    margin-bottom:24px;
+}
+.seminar_instructor_grid{
+    gap:24px;
+    grid-template-columns: 1fr;	
+}
+.seminar_instructor_box img{
+    width:90px;
+}
+.seminar_instructor_box_grid_text_date {
+    font-size: 16px;
+}
+.seminar_instructor_box_grid_text_peason {
+    font-size: 14px;
+}
+.seminar_howto_grid {
+    gap: 24px;
+    grid-template-columns: 1fr;
+}
+    .seminar_howto_box_grid{
+       display: grid;
+    gap:16px;
+    grid-template-columns: 1fr 2fr ;	
+    align-items: center;
+    justify-content: center;  
+        margin-bottom:8px;
+    }
+.seminar_howto_box_step {
+    font-size: 14px;
+    margin-top: 0;
+}
+.seminar_howto_box_title {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.seminar_instructor {
+     margin-bottom: 0; 
+}
+.seminar_btn_body .button{
+    width:88%;
+    margin-top: 16px;
+}
+}
+/*---------------------------------
+
+導入をご検討されている行政・自治行政を担う議員の方へ
+
+---------------------------------*/
+.cv{
+	background: #fff;
+	padding:30px;
+	text-align: center;
+   margin:auto;
+    box-shadow: 1px 1px 5px 1px #d4ceca;
+}
+.cv_h4{
+font-weight: 800;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 1.2px;
+color: #454545;
+    margin-bottom:30px;
+}
+.cv_grid{
+     display: grid;
+    gap:24px;
+    grid-template-columns: 1fr 1fr;	
+    align-items: center;
+    justify-content: center; 
+    width:560px;
+    text-align: center;
+    margin:auto;
+}
+
+@media screen and (max-width: 768px) {
+	
+.cv{
+	border: 1px solid #EEEEEE;
+	background: #fff;
+	padding:24px;
+	text-align: center;
+}
+.cv_h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    margin-bottom: 8px;
+}
+	.cv p{
+		text-align: left;
+		margin-top:24px;
+    }
+.cv_grid{
+     display: grid;
+    gap:16px;
+    grid-template-columns: 1fr 1fr;	
+    align-items: center;
+    justify-content: center; 
+    width:100%;
+    text-align: center;
+    margin:auto;
+}
+}
+
+/*追従ボタン*/
+.fixed_btn{
+    position: fixed;
+  bottom: 20px; 
+  right: 0px;
+  padding: 6px 40px;
+    z-index: 5;
+}
+.fixed_btn a{
+    transition: .3s ease-in-out;
+}
+.fixed_btn a:hover{
+    opacity: 0.5;
+}
+@media screen and (max-width: 768px) {
+.fixed_btn{
+    position: fixed;
+  bottom: -10px; 
+  right: -30px;
+  padding: 6px 40px;
+    z-index: 5;
+}
+.fixed_btn img{
+    width:120px;
+}
+}
+@media screen and (max-width: 768px) {
+.gov_seminar .background_container{
+    padding-bottom:140px;
+}
+}

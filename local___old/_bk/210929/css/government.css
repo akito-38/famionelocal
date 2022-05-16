@@ -1,0 +1,314 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*---------------------------------
+
+キービジュアル
+
+---------------------------------*/
+.main-visual {
+	background: url("../images/main_pc.png");
+	height:600px;
+	width:100%;
+	background-size: cover;
+	background-position: center;
+}
+.main-visual h1{
+	display: none;
+}
+@media screen and (max-width: 767px) {
+.main-visual{
+	background: url("../images/main_sp.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 458px;
+}
+}
+@media screen and (max-width: 414px) {.main-visual{height: 506px;}}
+@media screen and (max-width: 411px) {.main-visual{height: 502px;}}
+@media screen and (max-width: 375px) {.main-visual{height: 458px;}}
+@media screen and (max-width: 360px) {.main-visual{height: 441px;}}
+@media screen and (max-width: 320px) {.main-visual{height: 391px;}}
+
+/*---------------------------------
+
+ボタン
+
+---------------------------------*/
+.button {
+	background: #D9905E;
+}
+.button:hover {
+	background:  #C38154;
+}
+.subbutton {
+	color: #D9905E;
+	border:1px solid #D9905E;
+}
+.subbutton:hover {
+	background:  #D9905E;
+}
+.button_body p {
+	margin-bottom:24px;
+}
+/*---------------------------------
+
+H2の下カラー
+
+---------------------------------*/
+.headline_text:before {
+	background-color: #D9905E; /*線の色*/
+}
+
+/*---------------------------------
+
+子どもを願うすべての人によりそい、幸せな人生を歩める社会
+
+---------------------------------*/
+.info_text{
+	text-align: center;
+	line-height: 2;
+	font-weight: bold;
+	color:#454545;
+	letter-spacing: 1.2;
+	font-size: 16px;
+}
+.info_text_strong{
+	color:#D9905E;
+}
+.info_img{
+	text-align: center;
+	margin-top:40px;
+}
+.info_img img{
+	width:728px;
+}
+@media screen and (max-width: 768px) {
+.info_text{
+	text-align: left;
+	font-size: 14px;
+}
+.info_img img{
+	width:100%;
+}
+}
+/*---------------------------------
+
+ファミワンが住民の皆さまの妊活相談をフルサポートします
+
+---------------------------------*/
+.famione_service_body{
+	text-align: center;
+}
+.famione_service_img img{
+	width:100%;
+}
+
+
+
+/*---------------------------------
+
+横須賀市での導入事例
+
+---------------------------------*/
+.yokosuka{
+	text-align: center;
+}
+.ditail_text{
+	padding-bottom:40px;
+	text-align: center;
+}
+.yokosuka_kaiken_img img{
+	width:100%;
+}
+.interview{
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	box-sizing: border-box;
+	border-radius: 16px;
+	padding:40px;
+	margin-top:60px;
+	text-align: left;
+}
+.interview_grid{
+	display: grid;
+	gap:0;
+	grid-template-columns: 1fr 1fr;	
+	margin-bottom:40px;
+}
+
+.interview_grid_img img{
+	width:100%;
+}
+.interview_grid_text{
+	background: #FCF8F4;
+	padding:24px 40px;
+	text-align: left;
+}
+.interview_name{
+	font-size:16px;
+	color:#454545;
+}
+.interview_q{
+	color: #D9905E;
+	letter-spacing: 1.2px;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+}
+.interview_a{
+	color: #454545;
+	letter-spacing: 1.2px;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top:24px;
+	line-height: 2;
+}
+.interview_faq{
+	margin-top:60px;
+}
+@media screen and (max-width: 768px) {
+.ditail_text{
+	padding-bottom:40px;
+	text-align: left;
+}
+.interview_grid{
+	display: grid;
+	gap:0;
+	grid-template-columns: 1fr;	
+	margin-bottom:24px;
+}
+.interview{
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	box-sizing: border-box;
+	border-radius: 16px;
+	padding:24px;
+	margin-top:40px;
+	text-align: left;
+}
+.interview_grid_text{
+	background: #FCF8F4;
+	padding:16px 16px;
+	text-align: left;
+}
+.interview_name{
+	font-size:14px;
+	color:#454545;
+}
+.interview_faq {
+    margin-top: 24px;
+}
+.interview_q{
+	color: #D9905E;
+	letter-spacing: 1.2px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 2;
+}
+.interview_a{
+	color: #454545;
+	letter-spacing: 1.2px;
+	font-size: 14px;
+	margin-top:16px;
+	line-height: 2;
+}
+}
+
+/*---------------------------------
+
+ファミワンでのサポート内容と割合
+
+---------------------------------*/
+.graph_img img{
+	width:918px;
+}
+@media screen and (max-width: 768px) {
+.graph_img img{
+	width:100%;
+}
+}
+/*---------------------------------
+
+妊活コンシェルジュ ファミワンで出来る事
+
+---------------------------------*/
+
+.point_grid{
+	display: grid;
+	gap:60px;
+	grid-template-columns: 1fr 1fr;	
+	margin-bottom:60px;
+}
+
+.point_grid_list_img img{
+	width:100%;
+}
+.point_grid_list_text{
+	margin-top:16px;
+	text-align: center;
+	font-size:16px;
+	color:#454545;
+	letter-spacing: 1.2px;
+}
+@media screen and (max-width: 768px) {
+.point_grid{
+	display: grid;
+	gap:0;
+	grid-template-columns: 1fr;	
+	margin-bottom:0;
+}
+.point_grid_list_text{
+	margin-top:8px;
+	text-align: center;
+	font-size:14px;
+	color:#454545;
+	letter-spacing: 1.2px;
+}
+.point_grid_list{
+		margin-top:40px;
+}
+}
+/*---------------------------------
+
+導入をご検討されている行政・自治行政を担う議員の方へ
+
+---------------------------------*/
+.cv{
+	border: 1px solid #EEEEEE;
+	box-sizing: border-box;
+	border-radius: 8px;
+	background: #fff;
+	padding:60px;
+	text-align: center;
+}
+.cv_h4{
+	color: #D9905E;
+		font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	margin-bottom:8px;
+}
+@media screen and (max-width: 768px) {
+	
+.cv{
+	border: 1px solid #EEEEEE;
+	box-sizing: border-box;
+	border-radius: 8px;
+	background: #fff;
+	padding:24px;
+	text-align: center;
+}
+.cv_h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    margin-bottom: 8px;
+}
+	.cv p{
+		text-align: left;
+		margin-top:24px;
+	}
+}

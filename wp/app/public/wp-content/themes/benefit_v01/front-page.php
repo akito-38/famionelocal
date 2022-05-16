@@ -202,7 +202,7 @@
             <div class="section-title-box">
                 <h3 class="section-title">各種セミナー・LINEサポート取組事例</h3>
                 <p class="section-sub-text seminar-sub-text">
-                    ファミワンを導入いただき、<br>妊活・不妊治療に関する課題解決の取り組みをされている自治体の事例をご紹介します。
+                   妊活・不妊治療に関する課題解決の取り組みをされている自治体の事例をご紹介します。
                 </p>
             </div>
 
@@ -336,12 +336,12 @@ if ( $query->have_posts() ) : ?>
                         令和３年10月末に、『妊活×まちづくりの視点で、暮らしやすく、働きやすい地域づくりを一緒に考たい』を<br>
                         テーマとした自治体職員・議員勉強会を開催しました。
                     </p>
-                    <div class="banner_img">
+                    <a href="https://note.com/famione/n/n0c3b2a2eeab6" target="_blank" class="banner_img">
                         <picture>
                             <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/banner_sp.jpg" media="(max-width: 768px)" />
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/banner_pc.jpg" alt="" width="800" height="120" loading="lazy" />
                             <picture>
-                    </div>
+                    </a>
                     <h3 class="seminar-text-title">参加自治体一覧</h3>
                     <div class="seminar_about_pc">
                         <table>

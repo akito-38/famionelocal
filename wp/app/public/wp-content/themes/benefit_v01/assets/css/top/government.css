@@ -313,6 +313,7 @@ H2の下カラー
 .banner_img {
     text-align: center;
     margin: 30px 0 50px;
+    display: block;
 }
 
 .banner_img img {

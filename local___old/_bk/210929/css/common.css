@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/*見出し*/
+.headline_text_box{
+	margin-bottom:40px;
+	text-align: center;
+}
+.headline_text_en{
+	font-family: 'Quicksand', sans-serif;
+	color: #D9905E;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 8px;
+}
+.headline_text_ja{
+	color: #8B8B8B;
+	font-size: 12px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 1.2px;
+	margin-top:8px;
+}
+@media screen and (max-width: 768px) {
+.headline_text_box{
+	margin-bottom:32px;
+	text-align: center;
+}
+.headline_text_en{
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 8px;
+}
+.headline_text_ja{
+	font-size: 10px;
+	line-height: 15px;
+}
+}
+/*H3*/
+.headline_text_h3{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	margin-top:8px;
+	margin-bottom:24px;
+	color: #454545;
+}
+/*H4*/
+.headline_text_h4{
+	color: #454545;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	margin-bottom:8px;
+}
+/*H5*/
+.headline_text_h5{
+	color: #454545;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	margin-bottom:4px;
+}
+@media screen and (max-width: 768px) {
+.headline_text_h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	margin-top:8px;
+	margin-bottom:12px;
+}
+.headline_text_h4{
+	color: #454545;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	margin-bottom:8px;
+}
+.headline_text_h5{
+	color: #454545;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	margin-bottom:4px;
+}
+}
+/*コーポレートサイト内リンク*/
+.corporatepage_link{
+	text-decoration: none;
+	margin:24px 0;
+	display: block;
+	text-align: center;
+}
+.corporatepage_link_text{
+	color: #fa6e00;
+	letter-spacing: 1.2px;	
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-decoration: none;
+}
+.corporatepage_link_ico{
+	position: relative;
+    top: 6px;
+    margin-right: 8px;
+}
+.corporatepage_link a{
+  padding: 8px 16px;
+  background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, rgba(252,233,217,1) 50%);
+  background-position: 0 0;
+  background-size: 200% auto;
+  transition: .3s;
+	text-decoration: none;
+}
+.corporatepage_link a:hover {
+  background-position: -100% 0;
+}
+.corporatepage_link a:hover .corporatepage_link_text{
+  background-position: -100% 0;
+}
+@media screen and (max-width: 768px) {
+.corporatepage_link {
+    text-decoration: none;
+    margin: 8px 0;
+    display: block;
+    text-align: left;
+}
+.corporatepage_link a {
+    padding: 0 0;
+}
+.corporatepage_link_text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+}
+/*別ページリンク*/
+.button_sub a{
+    padding: 14px 32px;
+    background: #FFFFFF;
+    border: 1px solid #fa6e00;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 24px;
+    font-size: 14px;
+	font-weight: 500;
+}
+.button_sub a{
+   transition: .6s; 	
+}
+.button_sub a:hover{
+   transition: .6s; 
+	    background: #fa6e00;
+	color:#fff;
+}
+@media screen and (max-width: 768px) {
+.button_sub a{
+    padding: 14px 32px;
+    background: #FFFFFF;
+    border: 1px solid #FF603B;
+    border-radius: 8px;
+    text-decoration: none;
+    display: block;
+    margin-top: 24px;
+    font-size: 14px;
+	font-weight: 500;
+		text-align: center;
+}
+}
+
+/*必須/任意*/
+.required{
+	background-color: #FF603B;
+	border-radius: 2px;
+	padding:4px 8px;
+	font-size: 12px;
+	color: #fff;
+}
+
+/*---------------------------------
+
+見出し
+
+---------------------------------*/
+
+.headline_text{
+	font-size: 1.75rem;
+	font-weight: bold;
+    position: relative;
+    display: block;
+    margin-bottom: 60px;
+    color: #454545;
+    letter-spacing: 1px;
+	text-align: center;
+}
+.headline_text h2{
+	font-weight: bold;
+}
+/*以下で線を表示*/
+.headline_text:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -15px; /*線の上下位置*/
+	display: inline-block;
+	width: 50px; /*線の長さ*/
+	height: 3px; /*線の太さ*/
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%); /*位置調整*/
+	background-color: #eee; /*線の色*/
+	border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+.headline_text{
+	font-size: 1.25rem;
+	font-weight: bold;
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+    color: #454545;
+    letter-spacing: 1px;
+	text-align: center;
+}	
+}
+/*---------------------------------
+
+ボタン
+
+---------------------------------*/
+.button {
+	display: inline-block;
+	width: 320px;
+	height:72px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	border-radius: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	background: #D9905E;
+	border-radius: 8px;
+	color: #fff;
+	line-height:72px;
+	letter-spacing: 1.2px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
+	transition: .3s ease-in-out;
+}
+.button:hover {
+	background:  #C38154;
+	border-radius: 8px;
+	color: #fff;
+}
+.button_body{
+	padding:24px 0;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+.button_small_text{
+	font-size: 14px;
+}
+.button_margin-top{
+	margin-top:40px;
+}
+@media screen and (max-width: 768px) {
+.button_body{
+	margin-top:8px;
+	text-align: center;
+}
+.button {
+	display: inline-block;
+	width: 280px;
+	height:48px;
+	line-height: 48px;
+	text-align: center;
+	text-decoration: none;
+	font-size:16px;
+	font-weight: bold;
+	background: #5F99DB;
+	border-radius: 6px;
+	color: #fff;
+	padding:0;
+}
+}
+/*---------------------------------
+
+サブボタン
+
+---------------------------------*/
+
+.subbutton {
+	display: inline-block;
+	width: 320px;
+	height:72px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	background: #fff;
+	border-radius: 8px;
+	color: #D9905E;
+	line-height:72px;
+	letter-spacing: 1.2px;
+	transition: .3s ease-in-out;
+	border:1px solid #D9905E;
+}
+.subbutton:hover {
+	background:  #D9905E;
+	border-radius: 8px;
+	color: #fff;
+}
+.subbutton_body{
+	padding:24px 0;
+	text-align: center;
+	background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+.subbutton_body{
+	margin-top:8px;
+	text-align: center;
+}
+.subbutton {
+	display: inline-block;
+	width: 280px;
+	height:48px;
+	line-height: 48px;
+	text-align: center;
+	text-decoration: none;
+	font-size:16px;
+	font-weight: bold;
+	border-radius: 6px;
+	padding: 0;
+}
+}
